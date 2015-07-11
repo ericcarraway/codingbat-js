@@ -8,4 +8,4 @@ function makeChocolate(small, big, goal) {
 }
 ```
 
-If you'd like to compare your solution against another possible solution, check out the [solution-competed](solution-completed) folder.
+If you'd like to compare your solution against another possible solution, check out the [../solution-competed/](solution-completed) folder.
