@@ -15,4 +15,4 @@ Medium boolean logic puzzles
  * closeFar
  * blackjack
  * evenlySpaced
- * [makeChocolate](..\makeChocolate)
+ * [makeChocolate](makeChocolate/)
