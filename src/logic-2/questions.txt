@@ -7,5 +7,7 @@ Logic-2
 03-noTeenSum
 04-roundSum
 05-closeFar
-06-makeChocolate
+06-blackjack
+07-evenlySpaced
+08-makeChocolate
 ——
