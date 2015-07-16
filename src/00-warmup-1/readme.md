@@ -1,7 +1,7 @@
 ##Warmup-1
 Simple warmup problems to get started
 
-* sleepIn
+* [00-sleepIn](00-sleepIn/)
 * monkeyTrouble
 * sumDouble
 * diff21
