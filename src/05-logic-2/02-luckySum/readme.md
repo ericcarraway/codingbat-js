@@ -1,2 +1,2 @@
-## luckySum 
+## luckySum
 
