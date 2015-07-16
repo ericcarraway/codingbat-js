@@ -4,5 +4,6 @@
 // Return true if we sleep in.
 
 function sleepIn(weekday, vacation) {
-    return !weekday || vacation;
+    // enter your code here
+
 }
