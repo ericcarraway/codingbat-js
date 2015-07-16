@@ -4,5 +4,7 @@
 // Return true if we sleep in.
 
 function sleepIn(weekday, vacation) {
-    return !weekday || vacation;
+    return (!weekday || vacation);
 }
+
+// Run unit tests by viewing index.html
