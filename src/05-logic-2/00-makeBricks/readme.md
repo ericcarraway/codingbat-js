@@ -8,7 +8,7 @@ makeBricks(3, 1, 9) → false
 makeBricks(3, 2, 10) → true  
 
 ```
-function stringTimes(str, n) {
+function stringTimes(small, big, goal) {
     // enter your code here
 
 }
