@@ -7,32 +7,27 @@
 // and can be done without any loops.
 
 function makeBricks(small, big, goal) {
-    var minSmalls, pseudoBigs;
+    var minSmalls;
 
-    // not enough bricks
+    // fail by not enough bricks
     if (small + big * 5 < goal) {
         return false;
     }
 
-    // exact number of bricks
-    if (small + big * 5 === goal) {
-        return true;
-    }
-
-    // not enough one-inch-bricks
+    // fail by not enough one-inch bricks
     minSmalls = goal % 5;
     if (small < minSmalls) {
         return false;
     }
 
-    // refactor this
-
-    // repurpose leftover one-inch-bricks
-    pseudoBigs = (small - minSmalls) / 5;
-    return goal <= ((big + pseudoBigs) * 5) + minSmalls;
-}
-
-
+    return true;
 }
 
 // Run unit tests by viewing index.html
+
+
+// exessively terse:
+
+// function makeBricks(small, big, goal) {
+//     return !((small + big * 5 < goal) || (small < goal % 5));
+// }
