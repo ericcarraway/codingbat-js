@@ -1,13 +1,13 @@
-# problemName
+# stringSplosion
 ### [View solution](solution/)  
-Given a 
+Given a non-empty string like "Code" return a string like "CCoCodCode".  
 
-name(param) → "asdf"  
-name(param) → "asdf"  
-name(param) → "asdf"  
+stringSplosion('Code') → 'CCoCodCode'  
+stringSplosion('abc') → 'aababc'  
+stringSplosion('ab') → 'aab'  
 
 ```
-function name(param) {
+function stringSplosion(str) {
     // enter your code here
 
 }
