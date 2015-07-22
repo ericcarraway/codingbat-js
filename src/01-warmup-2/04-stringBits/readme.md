@@ -1,13 +1,13 @@
-# problemName
+# stringBits
 ### [View solution](solution/)  
-Given a 
+Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 
-name(param) → "asdf"  
-name(param) → "asdf"  
-name(param) → "asdf"  
+stringBits('Hello') → 'Hlo'  
+stringBits('Hi') → 'H'  
+stringBits('Heeololeo') → 'Hello'  
 
 ```
-function name(param) {
+function stringBits(str) {
     // enter your code here
 
 }
