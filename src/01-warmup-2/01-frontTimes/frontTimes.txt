@@ -11,3 +11,20 @@ public String frontTimes(String str, int n) {
   }
   return result;
 }
+
+---------------------------------------------
+public String frontTimes(String str, int n) {
+
+  String chunk = str;
+  String ret = "";
+
+  if (str.length() > 3) {
+    chunk = str.substring(0, 3);
+  }
+
+  for (int i = 0; i < n; i++) {
+    ret += chunk;
+  }
+
+  return ret;
+}
