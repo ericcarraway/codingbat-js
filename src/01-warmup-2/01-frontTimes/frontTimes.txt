@@ -28,3 +28,9 @@ public String frontTimes(String str, int n) {
 
   return ret;
 }
+---------------------------------------------
+Python:
+
+def front_times(str, n):
+    front = str[:3]
+    return n * front
