@@ -2,10 +2,27 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>sleepIn</title>
     <link rel="stylesheet" href="../src/_lib/qunit/qunit-1.18.0.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 </head>
 <body>
+  <style>
+      .code-area {
+        margin: 10px;
+        padding: 10px;
+      }
+  </style>
+  
+
+    <div class="code-area">
+        <form class="pure-form">
+            <textarea class="pure-input-1" placeholder="function sleepIn() {"></textarea>
+            <button type="submit" class="pure-button pure-input-1 pure-button-primary">Run Tests</button>
+        </form>
+    </div>
+
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="../src/_lib/qunit/qunit-1.18.0.js"></script>
