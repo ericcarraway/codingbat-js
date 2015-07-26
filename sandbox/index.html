@@ -14,17 +14,27 @@
         padding: 10px;
       }
   </style>
-  
+
 
     <div class="code-area">
-        <form class="pure-form">
-            <textarea class="pure-input-1" placeholder="function sleepIn() {"></textarea>
-            <button type="submit" class="pure-button pure-input-1 pure-button-primary">Run Tests</button>
-        </form>
+            <textarea id="code-box" class="pure-input-1" placeholder="function sleepIn() {"></textarea>
+            <button onclick="go()" class="pure-button pure-input-1 pure-button-primary">Run Tests</button>
     </div>
-
+<div id=test>
+  function(
+</div>
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
+    <script>
+    var sleepIn;
+    var go = function() {
+      sleepIn = document.getElementById('code-box').value;
+      alert(sleepIn(true, false));
+    };
+    alert('test');
+    alert(document.getElementById('test').innerHTML;
+
+    </script>
     <script src="../src/_lib/qunit/qunit-1.18.0.js"></script>
     <script src="../src/00-warmup-1/00-sleepIn/sleepIn.tests.js"></script>
 </body>
