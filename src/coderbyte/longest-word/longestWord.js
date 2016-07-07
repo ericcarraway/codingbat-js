@@ -12,7 +12,7 @@
  * @example
  */
 
-function longestWord (sen) {
+function longestWord(sen) {
     var senWithoutPunctuation = sen.replace(/[^A-Za-z0-9]/g, ' ');
     var arrOfWords = senWithoutPunctuation.split(' ');
     var compareFunction = function (a, b) {
