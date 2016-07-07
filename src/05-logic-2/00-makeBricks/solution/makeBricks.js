@@ -26,7 +26,7 @@ function makeBricks(small, big, goal) {
 // Run unit tests by viewing index.html
 
 
-// exessively terse:
+// excessively terse:
 
 // function makeBricks(small, big, goal) {
 //     return !((small + big * 5 < goal) || (small < goal % 5));
