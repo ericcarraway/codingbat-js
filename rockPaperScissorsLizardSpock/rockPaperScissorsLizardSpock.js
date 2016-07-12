@@ -1,21 +1,22 @@
 module.exports = function (a, b) {
     var defeaters = {
-        rock: ['paper', 'spock'],
+        rock: ['paper', 'Spock'],
         paper: ['scissors', 'lizard'],
-        scissors: ['rock', 'spock'],
+        scissors: ['rock', 'Spock'],
         lizard: ['scissors', 'rock'],
-        spock: ['lizard', 'paper']
+        Spock: ['lizard', 'paper']
     };
 
     // or a is first or second defeater of b
     if (a === defeaters[b][0] || a === defeaters[b][1]) {
-        return 'a';
+        return 1; // player A wins
     }
 
     // if b is the first or second defeater of a
     if (b === defeaters[a][0] || b === defeaters[a][1]) {
-        return 'b';
+        return -1; // player B wins
     }
 
-    return 'tie';
+    // tie
+    return 0;
 };
