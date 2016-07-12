@@ -75,4 +75,46 @@ describe.only('rockPaperScissorsLizardSpock', function () {
             rockPaperScissors('rock', 'scissors').should.equal(1);
         });
     });
+
+    describe('b winning', function () {
+        it('scissors cut paper', function () {
+            rockPaperScissors('paper', 'scissors').should.equal(-1);
+        });
+
+        it('paper covers rock', function () {
+            rockPaperScissors('rock', 'paper').should.equal(-1);
+        });
+
+        it('rock crushes lizard', function () {
+            rockPaperScissors('lizard', 'rock').should.equal(-1);
+        });
+
+        it('lizard poisons Spock', function () {
+            rockPaperScissors('Spock', 'lizard').should.equal(-1);
+        });
+
+        it('Spock smashes scissors', function () {
+            rockPaperScissors('scissors', 'Spock').should.equal(-1);
+        });
+
+        it('scissors decapitates lizard', function () {
+            rockPaperScissors('lizard', 'scissors').should.equal(-1);
+        });
+
+        it('lizard eats paper', function () {
+            rockPaperScissors('paper', 'lizard').should.equal(-1);
+        });
+
+        it('paper disproves Spock', function () {
+            rockPaperScissors('Spock', 'paper').should.equal(-1);
+        });
+
+        it('Spock vaporizes rock', function () {
+            rockPaperScissors('rock', 'Spock').should.equal(-1);
+        });
+
+        it('rock crushes scissors', function () {
+            rockPaperScissors('scissors', 'rock').should.equal(-1);
+        });
+    });
 });
