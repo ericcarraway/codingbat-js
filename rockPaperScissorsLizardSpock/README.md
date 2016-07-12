@@ -2,6 +2,8 @@
 
 ![rockPaperScissorsLizardSpock-pastel.png](./rockPaperScissorsLizardSpock-pastel.png)
 
+_Image by Wikipedia user Nojhan (CC BY-SA)_
+
 * scissors cut paper
 * paper covers rock
 * rock crushes lizard
