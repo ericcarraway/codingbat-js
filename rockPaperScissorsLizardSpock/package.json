@@ -1,0 +1,13 @@
+{
+  "name": "rockPaperScissorsLizardSpock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericcarraway/codingbat-js.git"
+  },
+  "author": "Eric Carraway",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
